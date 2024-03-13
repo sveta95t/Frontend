@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+#h1-pages {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 4%;
+}
+
+.products-list {
+    display: flex;
+    width: 95%;
+    margin: 40px 0 40px 4%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.my-product {
+    width: 20em;
+    height: 33em;
+    margin-right: 1.5%;
+    margin-bottom: 32px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 12px;
+    position: relative;
+}
+
+/*  */
+
+.my-product:hover .add-card-b {
+    display: block;
+}
+
+.add-card-b {
+    display: none;
+    position: absolute;
+    left: 15px;
+    bottom: 42%;
+    width: 90%;
+    height: 50px;
+    padding: 15px 32px;
+    background-color: rgb(51, 153, 51);
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-card-b:hover {
+    background-color: black;
+}
+
+/*  */
+
+.product-img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.product-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 15px 15px 20px 15px;
+}
+
+.product-prices {
+    display: flex;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0 10px 20px 15px;
+}
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(139, 139, 139);
+    text-decoration: line-through;
+}
+
+.discount {
+    position: absolute;
+    margin: 16px;
+    border-radius: 6px;
+    background-color: rgb(51, 153, 51);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 63px;
+    height: 34px;
+    padding: 6px 13px;
+}
+
+
+@media (max-width: 1400px)  {
+    .my-product {
+        width: 17em;
+        height: 30em;
+    }
+
+    .add-card-b {
+        bottom: 45%;
+    }
+}
+
+@media (max-width: 990px) {
+    .my-product {
+        width: 15em;
+        height: 29em;
+    }
+
+    .product-img {
+        width: 100%;
+    }
+
+    .add-card-b {
+        bottom: 50%;
+    }
+}
+
+@media (max-width: 711px) {
+    .my-product {
+        width: 25em;
+        height: 37em;
+        margin: 0 auto 32px auto;
+    }
+
+    .product-img {
+        width: 100%;
+    }
+
+    .add-card-b {
+        bottom: 35%;
+    }
+}

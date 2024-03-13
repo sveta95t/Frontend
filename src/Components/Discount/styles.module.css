@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.div_discount {
+  background: linear-gradient(261deg, #0b710b 32.63%, #393 98.96%);  
+  text-align: center;
+  margin: 80px 4%; ;
+  border-radius: 12px;
+} 
+
+.p_title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 32px;
+}
+
+.div_img_form {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px ;
+  padding-left: 32px;
+}
+
+.image {
+  width: 52%;
+}
+
+.div_Form {
+  width: 40%;
+  margin-right: 40px;
+}
+
+
+.form { 
+  width: 88%; 
+  position: relative;
+  text-align: start;
+  padding-top: 32px;
+  margin-left: 32px;
+  padding-bottom: 32px;
+} 
+
+.error {
+  color:blue;
+  font-size: 10px;  
+}
+
+
+form input {
+  width: 100%;
+  padding: 16px 32px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  background: transparent;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+
+.form input::placeholder {
+  font-size: 20px;
+  color: #fff;
+  line-height: 58px;
+  padding-top: 2px;
+  gap:10px;
+  margin-right: 20px;
+}
+
+
+.form button {
+  background: #FFF;
+  width: 516px;
+  width:100%;
+  padding: 16px 32px;
+  align-items: center;
+  border-radius: 6px;
+  color: #282828;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 28px;
+}
+
+.form button:hover {
+  background: #282828;
+  color:#fff;
+  transition: 0.5s;
+}
+
+
+@media(max-width: 1000px) {
+
+  .div_discount {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: 60px 4%;
+  }
+
+  .p_title {
+    font-size: 55px;
+    margin: 0 15px;
+  }
+
+  .form {
+    position: relative;
+    margin-bottom: 30px;
+    width: 95%;
+    height: Hug (276px);
+    gap: 20px;
+  }
+
+  .image {
+    width: 65%;
+    margin-left: -40px;
+  }
+
+  .form input {
+    width: 100%;
+    height: 58px;
+    margin-bottom: 16px;
+  }
+
+  .button {
+    margin-top: 10px;
+    width: 40%;
+    height: 58px;
+  }
+} 
+
+@media(max-width: 768px){
+
+  .div_img_form {
+    padding: 0;
+    display: block;
+    position: relative;
+    height: 600px;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .p_title {
+    font-size: 56px;
+  }
+
+  .image {
+    position: absolute;
+    width: 95%;
+    bottom: 0;
+    left: 10%;
+  }
+
+  .div_Form {
+    width: 95%;
+  }
+} 

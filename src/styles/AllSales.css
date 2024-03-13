@@ -1,0 +1,7 @@
+#sales-list {
+    display: flex;
+    width: 95%;
+    margin: 40px 0 40px 4%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

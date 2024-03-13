@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+#h1-pages {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    width: auto;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 4%;
+}
+
+.products-list {
+    display: flex;
+    width: 95%;
+    margin: 40px 0 40px 4%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.ProductDetails {
+    width: 95%;
+    display: flex;
+    border-radius: 12px;
+}
+
+.ProductDetails-desc {
+    margin: 0 auto;
+    width: 500px;
+
+}
+/*  */
+a {
+    text-decoration: none;
+    color: #424436;
+}
+
+.btn-group {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+}
+.number input[type="number"] {
+	display: block;
+	height: 58px;
+	line-height: 32px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+    border: solid 1px #DDDDDD;
+}
+.number input[type="number"]::-webkit-outer-spin-button,
+.number input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+.number-minus {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	bottom: 1px;
+	width: 58px;
+	padding: 0;
+	display: block;
+	text-align: center;
+	border: none;
+	border-right: 1px solid #ddd;
+	font-size: 16px;
+	font-weight: 600;
+}
+.number-plus {
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	bottom: 1px;
+	width: 58px;
+	padding: 0;
+	display: block;
+	text-align: center;
+	border: none;
+	border-left: 1px solid #ddd;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.add-card-btn {
+    display: block;
+    width: 50%;
+    height: 58px;
+    padding: 15px 32px;
+    margin: 0 auto;
+    background-color: #339933;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.add-card-b:hover {
+    background-color: black;
+}
+
+/*  */
+
+.ProductDetails-img {
+    width: 40%;
+    border-radius: 12px 12px 0 0;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.ProductDetails-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #424436;
+    font-size: 40px;
+    margin: 15px 15px 20px 15px;
+}
+
+.ProductDetails-prices {
+    display: flex;
+}
+
+.ProductDetails-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    color: #424436;
+    margin: 0 10px 20px 15px;
+}
+
+.ProductDetails-descTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #424436;
+    margin: 32px 10px 20px 15px;
+
+}
+
+.ProductDetails-descText {
+    color: #424436;
+    margin: 0 10px 20px 15px;
+
+    font-size: 16px;
+}
+
+.old-price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(139, 139, 139);
+    text-decoration: line-through;
+}
+
+.discount {
+    position: absolute;
+    margin: 16px;
+    border-radius: 6px;
+    background-color: rgb(51, 153, 51);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    width: 63px;
+    height: 34px;
+    padding: 6px 13px;
+}
+
+.backet-count {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: -20px;
+    padding: 5px 8px;
+    color: #ffffff;
+    background-color: #36ac36;
+    border-radius: 15px;
+}
+
+@media (max-width: 1400px)  {
+    .product {
+        width: 17em;
+        height: 30em;
+    }
+
+    .add-card-b {
+        bottom: 45%;
+    }
+}
+
+@media (max-width: 990px) {
+    .product {
+        width: 15em;
+        height: 29em;
+    }
+
+    .add-card-b {
+        bottom: 50%;
+    }
+}
+
+@media (max-width: 711px) {
+    .product {
+        width: 25em;
+        height: 37em;
+        margin: 0 auto 32px auto;
+    }
+
+    .add-card-b {
+        bottom: 35%;
+    }
+}

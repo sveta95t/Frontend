@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+footer {
+    margin: 0 4%;
+}
+
+.contact-h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    padding-top: 30px;
+}
+
+.contact-block {
+    width: 100%;
+}
+
+.contacts-one {
+    display: flex;
+    height: 150px;
+    margin: 32px 0 20px 0;
+}
+
+.contacts-two {
+    display: flex;
+    height: 194px;
+    margin: 32px 0 20px 0;
+}
+
+.contact-first-block {
+    width: 65%;
+    padding: 32px;
+    background: rgb(241, 243, 244);
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.contact-second-block {
+    width: 35%;
+    padding: 32px;
+    background-color: rgb(241, 243, 244);
+    border-radius: 12px;
+}
+
+.contact-p {
+    width: 154px;
+    height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(139, 139, 139);
+}
+
+.contact-h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.contact-icon {
+    display: flex;
+}
+
+.cont-icon {
+    border: none;
+    margin: 10px 16px 0 0;
+    width: 43px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.mapStyle {
+    width: 100%;
+    height: 350px;
+    margin: 32px 0;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: none;
+}
+
+
+@media (max-width: 990px) {
+    .contacts-two {
+        height: 220px;
+    }
+}
+
+@media (max-width: 770px) {
+    .contacts-one {
+        display: block;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .contacts-two {
+        display: block;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .contact-first-block {
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    .contact-second-block {
+        margin-top: 12px;
+        width: 100%;
+    }
+
+    .socials {
+        display: flex;
+    }
+
+    .contact-icon {
+        margin-left: -60px;
+        margin-top: -8px;
+    }
+
+    .contact-h3 {
+        font-size: 28px;
+    }
+
+    .mapStyle {
+        margin-top: 12px;
+    }
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+.DiscountedFilter {
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.DiscountedFilter > div {
+    display: flex;
+    align-items: center;
+}
+
+.DiscountedFilter label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 80px;
+    margin-right: 10px;
+    color: rgb(40, 40, 40);  
+}
+
+.DiscountedFilter input[type="number"] {
+    width: 112px;
+    height: 36px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 126%;
+    letter-spacing: 0%;
+    text-align: left;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 6px;
+    padding: 8px 16px 8px 16px;
+    color: rgb(139, 139, 139);
+}
+
+.filter-by-price {
+    display: flex;
+    align-items: center;
+}
+      
+.filter-by-price input[type="number"] {
+    margin-right: 5px;
+}
+
+@media (max-width: 720px) {
+    .DiscountedFilter {
+        display: block;
+    }
+
+    .DiscountedFilter > div {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .window_table{
+    background-color: rgba(40,40,40, 0.4);
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 40, 40, 0.4);
+  }
+  .window_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    max-width: 548px;
+    width: 100%;
+    height: 230px;
+    color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn {
+    margin-top: 20px;
+    background-color: #fefefe;
+    font-weight: 700;
+    border-radius: 15px;
+    padding: 10px 20px;
+  }
+
+  .congratulations{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 110%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+  }

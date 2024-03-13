@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+#navigation {
+    width: 100%;
+    height: 128px;
+    display: block;
+    justify-content: space-between;
+}
+
+#navigation-list {
+    padding: 25px 4%;
+    display: flex;
+}
+
+#nav-links {
+    width: 100%;
+    margin: 25px 13%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    margin: 0 2.5%;
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.active {
+    color: #339933;
+    margin: 0 2.5%;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#nav-backet {
+    margin-top: 9px;
+}
+
+#nav-line {
+    width: 100%;
+    height: 0px;
+    border: 1px #dddddd7c solid;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.our-dropdown-menu {
+    display: none;
+}
+
+.is-show {
+    display: none;
+}
+
+
+@media (max-width: 1400px)  {
+    #nav-links {
+        margin: auto 12%;
+    }
+}
+
+@media (max-width: 990px) {
+    #nav-links {
+        margin: auto 3.6%;
+    }
+}
+
+@media (max-width: 770px) {
+    #nav-links {
+        display: none;
+    }
+
+    #navigation {
+        position: relative;
+    }
+
+    #nav-backet {
+        position: absolute;
+        right: 90px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 50px;
+        height: 70px;
+    }
+    
+    .menu-icon {
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .our-dropdown-menu {
+        display: none;
+    }
+    
+    .is-show {
+        right: 0;
+        background: white;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: block;
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        top: 0;
+        padding-top: 40px;
+    }
+
+    .sidenav {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500px;
+        font-size: 30px;
+        top: 0;
+        right: 0px;
+        cursor: pointer;
+    }
+    
+    .our-menu-nav {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        width: 100%;
+        height: 30px;
+        margin: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        margin: 30px;
+    }
+
+}
+
